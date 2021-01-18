@@ -1953,13 +1953,15 @@ pre code {
     width: 66.66666667%;
   }
   .col-md-7 {
-    width: 58.33333333%;
+    /* width: 58.33333333%; */
+    width:40%;
   }
   .col-md-6 {
-    width: 50%;
+    width:50%;
   }
   .col-md-5 {
-    width: 41.66666667%;
+    /* width: 41.66666667%; */
+    width:50%;
   }
   .col-md-4 {
     width: 33.33333333%;
@@ -2111,13 +2113,15 @@ pre code {
     width: 66.66666667%;
   }
   .col-lg-7 {
-    width: 58.33333333%;
+    /* width: 58.33333333%; */
+    width: 50%;
   }
   .col-lg-6 {
     width: 50%;
   }
   .col-lg-5 {
-    width: 41.66666667%;
+    /* width: 41.66666667%; */
+    width: 50%;
   }
   .col-lg-4 {
     width: 33.33333333%;
@@ -4067,6 +4071,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-bottom: 1px solid #ddd;
 }
 .nav-tabs > li {
+  width:33%;
   float: left;
   margin-bottom: -1px;
 }
