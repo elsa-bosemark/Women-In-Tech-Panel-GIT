@@ -36,8 +36,8 @@
         </a>
       </li>
       <li>
-        <a href="#speakers" class="page-scroll">
-          <span class="menu-title">Speakers</span>
+        <a href="#schedule" class="page-scroll">
+          <span class="menu-title">Schedule</span>
           <span class="dot"></span>
         </a>
       </li>
@@ -48,11 +48,18 @@
         </a>
       </li>
       <li>
-        <a href="#schedule" class="page-scroll">
-          <span class="menu-title">Schedule</span>
+        <a href="#faq" class="page-scroll">
+          <span class="menu-title">FAQ</span>
           <span class="dot"></span>
         </a>
       </li>
+      <li>
+        <a href="#speakers" class="page-scroll">
+          <span class="menu-title">Speakers</span>
+          <span class="dot"></span>
+        </a>
+      </li>
+
     </ul>
   </nav>
   <div class="container-fluid">
@@ -121,7 +128,7 @@
           <div role="tabpanel" class="tab-pane fade in active" id="day-1">
 
             <!-- Start: Banner -->
-            <div class="container-fluid blue-banner" id="tickets">
+            <div class="container-fluid blue-banner">
               <h2 class="banner-title">Engineering</h2>
               <h3 class="banner-description">Description for this Panel. Talk about what this one will cover why it is
                 important and so on.</h3>
@@ -194,7 +201,7 @@
           <div role="tabpanel" class="tab-pane fade" id="day-2">
 
             <!-- Start: Banner -->
-            <div class="container-fluid blue-banner" id="tickets">
+            <div class="container-fluid blue-banner">
               <h2 class="banner-title">Buissness and Marketing</h2>
               <h3 class="banner-description">Description for this Panel. Talk about what this one will cover why it is
                 important and so on.</h3>
@@ -267,7 +274,7 @@
           <div role="tabpanel" class="tab-pane fade" id="day-3">
 
             <!-- Start: Banner -->
-            <div class="container-fluid blue-banner" id="tickets">
+            <div class="container-fluid blue-banner">
               <h2 class="banner-title">Desgin and Product Managment</h2>
               <h3 class="banner-description">Description for this Panel. Talk about what this one will cover why it is
                 important and so on.</h3>
@@ -363,7 +370,47 @@
   </div>
   <!-- End: Tickets -->
 
-  <div class="container">
+  <div class="container" id="faq">
+    <!-- Start: FAQ -->
+    <div class="faq-container">
+      <h2 class="row-title text-center">FAQ</h2>
+      <button class="accordion">Section 1</button>
+      <div class="panel">
+        <p>Lorem ipsum...</p>
+      </div>
+
+      <button class="accordion">Section 2</button>
+      <div class="panel">
+        <p>Lorem ipsum...</p>
+      </div>
+
+      <button class="accordion">Section 3</button>
+      <div class="panel">
+        <p>Lorem ipsum...</p>
+      </div>
+      <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function () {
+            /* Toggle between adding and removing the "active" class,
+            to highlight the button that controls the panel */
+            this.classList.toggle("accordion-active");
+
+            /* Toggle between hiding and showing the active panel */
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+      </script>
+    </div>
+
+    <!-- End: FAQ -->
     <!-- Start: Speakers -->
     <div class="row me-row content-ct speaker" id="speakers">
       <h2 class="row-title">Meet the Speakers</h2>
