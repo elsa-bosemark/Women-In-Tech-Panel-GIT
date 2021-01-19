@@ -494,3 +494,19 @@ ul.footer-menu li a:hover {
 .header-img{
     margin-top: 50px;
 }
+
+.organizer{
+    width: 31.333333%;
+}
+
+.organizer-bg{
+    background-color: #01c2cb;
+    margin-top: 50px;
+}
+.white{
+    color: #fff;
+}
+
+.full-width{
+    width: 100%;
+}
