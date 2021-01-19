@@ -186,7 +186,7 @@ a:hover, a:focus, a:active, a:visited {
 }
 
 .speaker-img {
-    max-width: 40%;
+    width: 40%;
     border: 4px solid #efefef;
     border-radius: 50%;
 }
@@ -376,6 +376,9 @@ ul.footer-menu li a:hover {
         text-align: center;
         margin-top: 30px;
     }
+    .organizer{
+        width: 100%;
+    }
 }
 
 /* iPad Portrait */
@@ -392,6 +395,9 @@ ul.footer-menu li a:hover {
     ul.footer-menu {
         margin-top: 0;
     }
+    .organizer{
+        width: 49%;
+    }
 }
 
 /* iPad Landscape */
@@ -400,6 +406,9 @@ ul.footer-menu li a:hover {
     .speaker .feature {
         width: 49%;
         margin-right: 9px;
+    }
+    .organizer{
+        width: 31.333333%;
     }
 }
 
@@ -495,18 +504,10 @@ ul.footer-menu li a:hover {
     margin-top: 50px;
 }
 
-.organizer{
-    width: 31.333333%;
-}
-
 .organizer-bg{
     background-color: #01c2cb;
     margin-top: 50px;
 }
 .white{
     color: #fff;
-}
-
-.full-width{
-    width: 100%;
 }
