@@ -428,6 +428,7 @@ ul.footer-menu li a:hover {
     text-align: center;
     color: white;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .banner-description {
@@ -460,7 +461,7 @@ ul.footer-menu li a:hover {
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 
 .accordion-active, .accordion:hover {
-    background-color: #8ecfc8;
+    background-color: #45dbe0;
 }
 
 /* Style the accordion panel. Note: hidden by default */
